@@ -233,7 +233,7 @@ header {
 	border-radius: 5%;
 	height: 200px;
 	animation-delay: 1.3s;
-	z-index: 9999;
+	z-index: 1;
 }
 
 
