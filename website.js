@@ -51,28 +51,28 @@ $(document).ready(function () {
 	});
 	
 	$("#kojo-img").css("opacity", 0);
-	$("#kojo-img").waypoint(function () {
+	$("#projects-heading").waypoint(function () {
 		$("#kojo-img").addClass("rotateInDownLeft")
 	}, {
 		offset: "100%"
 	});
 	
 	$("#wiki-img").css("opacity", 0);
-	$("#wiki-img").waypoint(function () {
+	$("#projects-heading").waypoint(function () {
 		$("#wiki-img").addClass("rotateInDownLeft")
 	}, {
 		offset: "100%"
 	});
 	
 	$("#weather-img").css("opacity", 0);
-	$("#weather-img").waypoint(function () {
+	$("#projects-heading").waypoint(function () {
 		$("#weather-img").addClass("rotateInDownLeft")
 	}, {
 		offset: "100%"
 	});
 	
 	$("#survey-img").css("opacity", 0);
-	$("#survey-img").waypoint(function () {
+	$("#projects-heading").waypoint(function () {
 		$("#survey-img").addClass("rotateInDownLeft")
 	}, {
 		offset: "100%"
